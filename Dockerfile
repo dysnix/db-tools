@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV PACKAGES "postgresql-client mysql-client openssh bash vim"
+ENV PACKAGES "postgresql-client mysql-client openssh bash vim screen"
 ENV TERM "screen"
 
 RUN apk --update add --no-cache $PACKAGES \
